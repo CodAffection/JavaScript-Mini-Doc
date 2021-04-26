@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <fieldset id="categoryGroup">
+            <input type="radio" value="Practice" name='category' id="common_practice">
+            <label for="common_practice">Practice</label>
+            <input type="radio" value="1. Basics" name='category' id="basics_folder">
+            <label for="basics_folder">1. Basics</label>
+            <input type="radio" value="2. DOM" name='category' id="dom_folder">
+            <label for="dom_folder">2. DOM</label>
+            <input type="radio" value="3. Array" name='category' id="array_folder">
+            <label for="array_folder">3. Array</label>
+        </fieldset>
+        <fieldset id="topicFieldset">
+            <label>Select Topic</label>
+            <select id="topics">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option>3</option>
+            </select>
+        </fieldset>
+        <div id="topicSummary"></div>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
