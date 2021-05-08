@@ -6,23 +6,7 @@ const storeKey = {
 
 const basicFiles = [
     '0. Practice.js',
-    '1. What is JavaScript',
-    '2. First JavaScript Program.js',
-    '3. Variables and Declaration.js',
-    '4. let,var and const.js',
-    '5. Datatype.js',
-    '6. Operators.js',
-    '7. Operator Precedence.js',
-    '8. String.js',
-    '9. control flow.js',
-    '10. Function.js',
-    '11. Object.js',
-    '12. Array.js',
-    '13. Loops and iteration.js',
-    '12. Array Methods.js',
-    '13. Array Methods 2.js',
-    '14. Array Iteration.js',
-    '16. Object Methods.js',
+    '01. What is JavaScript.js',
 ]
 
 const categoryGroup = document.getElementById('categoryGroup');
@@ -73,10 +57,6 @@ function populateGroupAndTopics() {
 
         case '1. Basics':
             listOfOptions = basicFiles;
-            break;
-
-        case '3. Array':
-            listOfOptions = arrayFiles;
             break;
 
         default:
