@@ -14,6 +14,8 @@ Requirements
 * VS Code Extension : Better Comments  
 * VS Code Extension : Live Server  
 
+![How it Works](How it works.jpg)
+
 
 
 # Topic Status
