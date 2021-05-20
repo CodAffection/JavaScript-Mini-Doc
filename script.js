@@ -7,6 +7,7 @@ const storeKey = {
 const basicFiles = [
     '0. Practice.js',
     '01. What is JavaScript.js',
+    '02. JS Engine & Version History.js'
 ]
 
 const categoryGroup = document.getElementById('categoryGroup');
