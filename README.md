@@ -6,9 +6,19 @@ This is JavaScript Documentation Note in JavaScript itself. :blush:
 
 JavaScript Playlist : https://bit.ly/3gE5Dmp
 
+# How it Works
+
+Requirements
+* Visual Studio Code  
+(You can use other IDE,if the IDE have following or similar xtension)  
+* VS Code Extension : Better Comments  
+* VS Code Extension : Live Server  
+
+
+
 # Topic Status
 Basics  
 :heavy_check_mark: 01. What is JavaScipt  
 :heavy_check_mark: 02. JavaScript Engine and Version History (Video on May 24)    
 :x: 03. First JavaScript Program  
-coming soon  
+coming soon   
