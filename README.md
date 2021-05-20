@@ -10,7 +10,7 @@ JavaScript Playlist : https://bit.ly/3gE5Dmp
 
 Requirements
 * Visual Studio Code  
-(You can use other IDE,if the IDE have following or similar xtension)  
+(You can use other IDEs also, if the IDE have following or similar extensions)  
 * VS Code Extension : Better Comments  
 * VS Code Extension : Live Server  
 
