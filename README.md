@@ -21,6 +21,9 @@ Requirements
 # Topic Status
 Basics  
 :heavy_check_mark: 01. What is JavaScipt  
-:heavy_check_mark: 02. JavaScript Engine and Version History (Video on May 24)    
-:x: 03. First JavaScript Program  
+:heavy_check_mark: 02. JavaScript Engine and Version History    
+:heavy_check_mark: 03. First JavaScript Program (Video : Jun-14)  
+:x: 04. Comments in JS  
+:x: 05. Variables and Declaration  
+:x: 06. let,var and const  
 coming soon   
