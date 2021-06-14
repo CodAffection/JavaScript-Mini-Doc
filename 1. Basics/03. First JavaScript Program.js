@@ -1,7 +1,7 @@
 let summary = `
  - JS Developemnt Environment
  - First Program in JS
- - Video we'll be uploaded soon.xxx
+ - <a href="https://bit.ly/3zocKq3" target="_blank">Video Tutorial</a> 
   `;
 localStorage.setItem('topicSummary', summary); 
 
