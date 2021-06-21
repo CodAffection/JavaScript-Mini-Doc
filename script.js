@@ -8,7 +8,8 @@ const basicFiles = [
     '0. Practice.js',
     '01. What is JavaScript.js',
     '02. JS Engine & Version History.js',
-    '03. First JavaScript Program.js'
+    '03. First JavaScript Program.js',
+    '04. Comments and Statements.js'
 ]
 
 const categoryGroup = document.getElementById('categoryGroup');
