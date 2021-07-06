@@ -3,7 +3,7 @@ let summary = `
  - Declarations & Identifier
  - Rules for Naming Identifiers
  - Case Sensitivity in JS
- - <a href="xxxx" target="_blank">Video Tutorial</a> 
+ - <a href="https://bit.ly/3qMpRO7" target="_blank">Video Tutorial</a> 
   `;
 localStorage.setItem('topicSummary', summary);
 
