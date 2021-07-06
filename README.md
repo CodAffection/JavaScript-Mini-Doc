@@ -24,6 +24,6 @@ Basics
 :heavy_check_mark: 02. JavaScript Engine and Version History    
 :heavy_check_mark: 03. First JavaScript Program  
 :heavy_check_mark: 04. Comments and Statments  
-:x: 05. Variables and Declaration  
+:heavy_check_mark: 05. Variables, Declaration and Identifiers  
 :x: 06. let,var and const  
 coming soon   
