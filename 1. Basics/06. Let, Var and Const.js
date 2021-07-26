@@ -1,8 +1,9 @@
 let summary = `
- - What is a Variable ? 
- - Declarations & Identifier
- - Rules for Naming Identifiers
- - Case Sensitivity in JS
+ - let vs var vs const. 
+ - Scope
+ - Re-declaration
+ - Hoisting
+ - Best practice on let,var and const.
  - <a href="https://bit.ly/3kZAyf9" target="_blank">Video Tutorial</a> 
   `;
 localStorage.setItem('topicSummary', summary);
@@ -13,6 +14,12 @@ localStorage.setItem('topicSummary', summary);
 * let, var, and const 
 - three keywords used to create js variables.
 - all variable declaration startes with any of these keywords.
+- var was there in js from beginning, 
+  but both let and const introduced in ES6 or in th year 2015.
+
+* You could create multiple variable in a statement as follows.
+use comma after each variable.
+let a=1, b=2, c=3;
 
 TODO : pre-requisites topics
 1. Block Statement
@@ -95,12 +102,12 @@ function sample() {
 }
 
 // TODO : Program 2 - Re-declaration
-let reLet =1;
+let reLet = 1;
 //let reLet =11; //! Not Possible to redeclare in same scope.
 // but possoble in a different scope like block statement or Function.
 
-var reVar =2;
-var reVar =22; // Possible redeclare in same scope.
+var reVar = 2;
+var reVar = 22; // Possible redeclare in same scope.
 
 //TODO : Program 3 - Hoisting
 // let not available before its declaration statement
@@ -111,7 +118,7 @@ var reVar =22; // Possible redeclare in same scope.
 // before declaration all variables has the value 'undefined'
 console.log(hoistVar); // * prints 'undefined'
 
-let hoistLet =1;
-var hoistVar =2;
+let hoistLet = 1;
+var hoistVar = 2;
 
 //#endregion
