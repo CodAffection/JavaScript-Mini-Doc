@@ -11,6 +11,7 @@ const basicFiles = [
     '03. First JavaScript Program.js',
     '04. Comments and Statements.js',
     '05. Variable, Declaration & Identifier',
+    '06. Let, Var and Const.js',
 ]
 
 const categoryGroup = document.getElementById('categoryGroup');
