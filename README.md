@@ -25,6 +25,6 @@ Basics
 :heavy_check_mark: 03. First JavaScript Program  
 :heavy_check_mark: 04. Comments and Statments  
 :heavy_check_mark: 05. Variables, Declaration and Identifiers  
-:heavy_check_mark: 06. let,var and const  
-:x: 07. Datatypes
+:heavy_check_mark: 06. let, var and const  
+:x: 07. Datatypes  
 coming soon   
