@@ -1,9 +1,9 @@
 let summary = `
  - let vs var vs const. 
  - Scope
- - Re-declaration
+ - Redeclaration
  - Hoisting
- - Best practice on let,var and const.
+ - Best practices.
  - <a href="https://bit.ly/3kZAyf9" target="_blank">Video Tutorial</a> 
   `;
 localStorage.setItem('topicSummary', summary);
