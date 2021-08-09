@@ -27,5 +27,6 @@ Basics
 :heavy_check_mark: 05. Variables, Declaration and Identifiers  
 :heavy_check_mark: 06. let, var and const  
 :heavy_check_mark: 07. Datatypes  
-:x: 08. Operators  
+:heavy_check_mark: 08. Operators  
+:x: 09. String  
 coming soon   

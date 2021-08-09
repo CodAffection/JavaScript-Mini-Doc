@@ -13,6 +13,7 @@ const basicFiles = [
     '05. Variable, Declaration & Identifier',
     '06. Let, Var and Const.js',
     '07. Datatypes.js',
+    '08. Operators.js',
 ]
 
 const categoryGroup = document.getElementById('categoryGroup');
