@@ -1,5 +1,6 @@
 let summary = `
  - Operator Vs Operand 
+ - Expression Vs Statement
  - Operators in JS
  - Truthy and Falsy Values
  - Operator Precedence and Associativity
@@ -12,6 +13,25 @@ localStorage.setItem('topicSummary', summary);
 ? operator and operands
   'OPERATOR' specifies an operation on the data which yields a value.
   data on which operator act is  called 'OPERAND'.
+
+TODO : Expression Vs Statement.
+Statement is a complete set of instruction to perform a particular action.
+like 
+1. printing value to dev. console.
+> console.log('message');
+
+2. declaring or assigning values to variables
+> let a=4, b=5, c;
+> c=6;
+
+Expression is a unit of code that can be evaluated to a value.
+Eg.
+
+> let a=5;---> here '5' is an expression, bcz, it's a value;
+> let b = a*2; ---> 'a*2' can be evaluated to value, so it's also an expression.
+> if(a>6){...}  ---> here 'a<6' can be evaluated to a boolean value. so it's an expression.
+
+
 
 !  Assignment           Arithmetic                  Logical            Comparison
    =                    +, -, *, /                  AND(&&)            Equal(==) X !=
@@ -32,7 +52,9 @@ localStorage.setItem('topicSummary', summary);
 
 
   Operators Precedence.
-  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+  Ref  Precedence Table: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+  Precedence determines order of executing operators in an expression.
 
 
 */
@@ -153,7 +175,7 @@ console.log(3 <= 3);//* prints true
 //eg. check given no. is 2 digit
 let number1;
 if (number1 > 9 && number1 < 100) {
-    console.log('given no. is a 2 digit number.')
+  console.log('given no. is a 2 digit number.')
 }
 
 
@@ -164,7 +186,7 @@ if (number1 > 9 && number1 < 100) {
 //eg. check today is weekend or not.
 let dayOfWeek = 'Mon';
 if (dayOfWeek == 'Sun' || dayOfWeek == 'Sat') {
-    console.log('Weekend');
+  console.log('Weekend');
 }
 
 // NOT !
@@ -192,8 +214,55 @@ y ||= 2; //y is falsy, so  assignment works
 // assignment works only when LHS is nullish(null or undefined).
 let z;
 z ??= 5;//assignment works bcz, z is nullish
-z=5;
+z = 5;
 z ??= 6; // no assignment, bcz, z is not nullish.
 
+// ^ you might see red squiggly line for above 3 assignment operators(normally indicate program error)
+// Here it's not an error, these operators are latest addition to JS, meaning your IDE or Extension are not
+// Compactible with latest JS Version.
+
+
+// TODO : Operator Precedence.
+let result1 = 3 + 5 * 2;
+// if no precedence were assigned. 
+// and if we execute from left to right.
+// it would be evaluated as follows.
+
+// 8 *2 (first addition)
+// 16
+
+// * But actually it is executed in following order
+// 3 + 10 ( first multiplication)
+// 13
+
+// Here multiplication got more precedence than addition.
+// you could ref. mdn operator precedence table.
+
+// if you want to do it like first addition then multiplication
+// you can group such operations with a pair of paranthesis
+// bcz, grouping has highest precedence than anything else
+
+let result2 = (3 + 5) * 2;
+// now execution order will be, first addition -> multiplication.
+
+
+// in precedence table, there are operators with same precedence in that case
+// associativity is mentioned. left-to-right or right-to-left.
+
+let operand1, operand2;
+operand1 = operand2 = 3;
+// here same operator (=), came twise, so same precedence
+// so look for associativity. for =, it right to left.
+// so first operand2 is assigned with 3, 
+// and then the same 3 is assigned to operand1. 
+
+
+//one more eg.
+let result3 = 4 + 5 * 2 - 4;
+// based on precedence, multiplication happens first
+// 4 + 10 -4; // now + and - has some precedence, 
+// so as per their associativity left to right order execution happens
+// 14-4
+// 10
 
 //#endregion
