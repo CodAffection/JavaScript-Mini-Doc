@@ -28,5 +28,6 @@ Basics
 :heavy_check_mark: 06. let, var and const  
 :heavy_check_mark: 07. Datatypes  
 :heavy_check_mark: 08. Operators  
-:x: 09. String  
+:heavy_check_mark: 09. String  
+:x: 10. How to Deal with Numbers  
 coming soon   
