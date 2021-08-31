@@ -29,5 +29,6 @@ Basics
 :heavy_check_mark: 07. Datatypes  
 :heavy_check_mark: 08. Operators  
 :heavy_check_mark: 09. String  
-:x: 10. How to Deal with Numbers  
+:heavy_check_mark: 10. How to Deal with Numbers  
+:x: 11. Control Flow Statements  
 coming soon   
